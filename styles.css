@@ -105,6 +105,10 @@ p {
 .card {
   /* TODO: Add card styles */
   /* HINT: Use background-color, border-radius, box-shadow, transition */
+  background-color: var(--card-bg);
+  border-radius: 10px;
+  box-shadow: var(--card-shadow);
+  transition: var(--transition);
 }
 
 .card:hover {
@@ -115,6 +119,9 @@ p {
 .card-img {
   /* TODO: Add card image styles */
   /* HINT: Set width, height, and object-fit */
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
 .card-content {
@@ -136,6 +143,15 @@ p {
 .btn {
   /* TODO: Add button styles */
   /* HINT: Use display, padding, background-color, color, border, border-radius, cursor, transition */
+  display: inline-block;
+  padding: 10px 16px;
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  font: inherit;
+  cursor: pointer;
+  transition: var(--transition);
 }
 
 .btn:hover {
@@ -306,6 +322,12 @@ input:checked + .slider-round:before {
 .form-input {
   /* TODO: Add form input styles */
   /* HINT: Use width, padding, border, border-radius, font-size, transition */
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: var(--transition);
 }
 
 .form-input:focus {
@@ -421,6 +443,11 @@ input:checked + .slider-round:before {
 .nav {
   /* TODO: Add navigation styles */
   /* HINT: Use display, background-color, border-radius, overflow, and margin-bottom */
+  display: flex;
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .nav-item {
